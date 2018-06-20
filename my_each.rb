@@ -5,8 +5,5 @@ def my_each(arr)
       yield(arr[n])
       n+=1
     end
-  else
-    puts 'Hey! no block defined'
-  end
   arr
 end
