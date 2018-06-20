@@ -1,3 +1,11 @@
-def my_each # put argument(s) here
-  # code here
+def my_each(arr)
+  if block_given?
+    n = 0
+    while n<arr.length 
+      yield(arr[n])
+      n+=1
+    end
+  else
+    puts 'Hey! no block defined'
+  end
 end
