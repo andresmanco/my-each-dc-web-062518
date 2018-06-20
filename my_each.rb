@@ -8,4 +8,5 @@ def my_each(arr)
   else
     puts 'Hey! no block defined'
   end
+  arr
 end
